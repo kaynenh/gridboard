@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Builder</title>
+
+    <link rel="stylesheet" href="dist/styles.css">
+    <script src="https://cdn.rawgit.com/konvajs/konva/2.2.1/konva.min.js"></script>
+</head>
+<body>
+<div id="controls">
+    <form>
+        Name: <input type="text" id="board_name" />
+        <input type="button" value="Add Player" id="add_element" />
+        <input type="button" value="Save" id="save_board" />
+        <select id="saved_boards">
+            <option>Select One</option>
+        </select>
+        <input type="button" value="Load" id="load_board" />
+    </form>
+</div>
+<div id="board"></div>
+<script src="dist/bundle.js"></script>
+</body>
+</html>
