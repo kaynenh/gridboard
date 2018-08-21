@@ -9,3 +9,6 @@ formations stored as localStorage
 2. npm init
 3. npm start
 4. Load project through a webserver (Lando was used for testing: https://docs.devwithlando.io/started.html)
+
+## Sample data
+Look in sample_data to see the key and value of a sample board
